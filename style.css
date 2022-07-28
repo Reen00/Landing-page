@@ -1,0 +1,256 @@
+
+body {
+    background-color: #1f2937;
+}
+
+.header-container {
+    color: white;
+    font-family: sans-serif;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 360px;
+    height: 100px;
+    margin-left: 40px;
+    text-align: center;
+    align-self: center;
+}
+
+.link {
+    font-size: 28px;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+
+.link-1 {
+    color: #1f2937;
+    font-size: 28px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+    text-decoration: none;
+}
+
+.link-1:hover {
+    color: white;
+    background-color: rgb(34, 99, 240);
+}
+
+.link-2 {
+    color: #1f2937;
+    font-size: 28px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+}
+
+.link-2:hover {
+    color: white;
+    background-color: rgb(34, 99, 240);
+}
+
+.link-3 {
+    color: #1f2937;
+    font-size: 28px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+}
+
+.link-3:hover {
+    color: white;
+    background-color: rgb(34, 99, 240);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none; color: #1f2937;
+}
+
+a:hover {
+    text-decoration: none; color: white;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.upper-body-container {
+    background-color: #1f2937;
+    padding: 100px;
+    padding-left: 200px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.image-holder {
+    width: 640px;
+    height: 360px;
+}
+
+.image-container {
+    width: 640px;
+    height: 360px;
+    margin-left: 30px;
+}
+
+.upper-body-container-text {
+    color: white;
+    font-family: sans-serif;
+    width: 400px;
+}
+
+.awesome {
+    font-size: 48px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.subtext {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.upper-button {
+    font-size: 26px;
+    padding: 14px;
+    border: none;
+    background-color: rgb(34, 99, 240);
+    color: white;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+
+.upper-button:hover {
+    background-color: white;
+    color: #1f2937;
+}
+
+.mid-container {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    background-color: white;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+}
+
+.text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.mid-header {
+    font-size: 36px;
+    font-weight: 900;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 26px;
+    background-color: white;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+}
+
+.lower-mid-container {
+    background-color: lightgray;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: justify;
+}
+
+.quote {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.who {
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: end;
+}
+
+.lower-container {
+    font-family: sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+}
+
+.inner-container {
+    background-color: rgb(34, 99, 240);
+    color: white;
+    width: 900px;
+    padding: 28px;
+    border-radius: 16px;
+    display: flex;
+}
+
+.text-container {
+    width: 600px;
+}
+
+.low-text-1 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.low-text-2 {
+    font-size: 20px;
+    opacity: 80%;
+}
+
+.low-text-1, .low-text-2 {
+    width: 600px;
+}
+
+.lower-button {
+    font-size: 26px;
+    padding: 10px;
+    border: 3px solid white;
+    background-color: rgb(34, 99, 240);
+    color: white;
+    border-radius: 16px;
+    transition: 0.3s;
+    margin-left: 160px;
+}
+
+.lower-button:hover {
+    background-color: white;
+    color: rgb(34, 99, 240);
+}
+
+.footer-text {
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
